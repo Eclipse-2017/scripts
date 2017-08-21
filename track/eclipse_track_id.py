@@ -70,14 +70,14 @@ if __name__ == '__main__':
     h_gs_lon    = "Ground Station Longitude [default=%default]"
     h_gs_alt    = "Ground Station Altitude [default=%default]"
 
-    parser.add_option("", "--gs_id" , dest = "gs_id" , action = "store", type = "string",default='VTGS'      , help = h_gs_id)
-    parser.add_option("", "--gs_lat", dest = "gs_lat", action = "store", type = "float", default='37.229977' , help = h_gs_lat)
-    parser.add_option("", "--gs_lon", dest = "gs_lon", action = "store", type = "float", default='-80.439626', help = h_gs_lon)
-    parser.add_option("", "--gs_alt", dest = "gs_alt", action = "store", type = "float", default='610'       , help = h_gs_alt)
-    #parser.add_option("", "--gs_id" , dest = "gs_id" , action = "store", type = "string",default='MOSCOW_ID' , help = h_gs_id)
-    #parser.add_option("", "--gs_lat", dest = "gs_lat", action = "store", type = "float", default='46.718971' , help = h_gs_lat)
-    #parser.add_option("", "--gs_lon", dest = "gs_lon", action = "store", type = "float", default='-116.983578', help = h_gs_lon)
-    #parser.add_option("", "--gs_alt", dest = "gs_alt", action = "store", type = "float", default='786'       , help = h_gs_alt)
+    #parser.add_option("", "--gs_id" , dest = "gs_id" , action = "store", type = "string",default='VTGS'      , help = h_gs_id)
+    #parser.add_option("", "--gs_lat", dest = "gs_lat", action = "store", type = "float", default='37.229977' , help = h_gs_lat)
+    #parser.add_option("", "--gs_lon", dest = "gs_lon", action = "store", type = "float", default='-80.439626', help = h_gs_lon)
+    #parser.add_option("", "--gs_alt", dest = "gs_alt", action = "store", type = "float", default='610'       , help = h_gs_alt)
+    parser.add_option("", "--gs_id" , dest = "gs_id" , action = "store", type = "string",default='MOSCOW_ID' , help = h_gs_id)
+    parser.add_option("", "--gs_lat", dest = "gs_lat", action = "store", type = "float", default='46.718971' , help = h_gs_lat)
+    parser.add_option("", "--gs_lon", dest = "gs_lon", action = "store", type = "float", default='-116.983578', help = h_gs_lon)
+    parser.add_option("", "--gs_alt", dest = "gs_alt", action = "store", type = "float", default='786'       , help = h_gs_alt)
     (options, args) = parser.parse_args()
     #--------END Command Line option parser------------------------------------------------------    
 
